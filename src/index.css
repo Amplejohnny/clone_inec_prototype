@@ -1,0 +1,288 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  all: unset;
+  color: black;
+  cursor: pointer;
+}
+a:hover {
+  opacity: 0.5;
+  color: green;
+}
+
+.d-none {
+  display: none;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.3rem 7.5rem;
+  box-shadow: 0 0.2rem 0.3rem 0 gray;
+  width: 100%;
+  position: fixed;
+  background: white;
+  z-index: 9999;
+}
+
+.logo {
+  width: 12rem;
+}
+
+.navbar a {
+  font-weight: 600;
+}
+
+.status-button {
+  background-color: #16703f;
+  color: white;
+  height: 3rem;
+  width: 10rem;
+  border: none;
+  border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
+  position: absolute;
+  bottom: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.hero-section {
+  padding: 10rem 7.5rem;
+  background-image: url(./static/bg-1.jpg);
+  height: 31rem;
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: cover;
+  position: relative;
+}
+
+.section {
+  background-color: white;
+  text-align: justify;
+  margin-bottom: 6rem;
+  padding: 2rem 0rem;
+}
+
+.space-x-4 > * + * {
+  --space-x-reverse: 0;
+  margin-right: calc(1rem * var(--space-x-reverse));
+  margin-left: calc(4rem * calc(1 - var(--space-x-reverse)));
+}
+
+.work {
+  max-width: 30rem;
+}
+
+.welcome {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: #303030;
+  font-weight: 500;
+  line-height: 3.125rem;
+}
+
+.check {
+  margin-bottom: 2rem;
+  font-size: 1.3rem;
+}
+
+.message {
+  text-align: center;
+  margin: 4rem 0 4rem 0;
+}
+
+.chairman {
+  width: 40%;
+}
+
+.inec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 7rem;
+}
+
+.rants {
+  width: 57%;
+  word-spacing: 0.2rem;
+  color: #585a58;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+
+.footer {
+  background-color: white;
+  color: #949594;
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 7rem;
+  width: 100%;
+  border-top: 0.16rem solid;
+  border-top-color: darkgreen;
+  border-bottom: 2.7rem solid;
+  border-bottom-color: #f0f2f5;
+}
+
+.logo-footer {
+  width: 12rem;
+  margin-bottom: 1.2rem;
+}
+
+.acontact {
+  all: unset;
+  color: #e29390;
+  cursor: pointer;
+}
+
+.acontact:hover {
+  opacity: 0.5;
+  color: #363031;
+}
+
+.acolor {
+  color: #949594;
+}
+
+.indent {
+  display: flex;
+  justify-content: space-between;
+  width: 49%;
+}
+
+.indent2 {
+  display: flex;
+  gap: 7rem;
+}
+
+.website {
+  margin-top: 1.3rem;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.policy {
+  margin-top: 0.8rem;
+}
+
+.thick {
+  font-weight: 600;
+}
+
+.ul-style {
+  list-style: none;
+}
+
+.opacity {
+  opacity: 0.8;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.w-70 {
+  width: 70%;
+}
+
+.w-15 {
+  width: 15%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-17 {
+  width: 17%;
+}
+
+.w-60 {
+  width: 60%;
+}
+.rounded {
+  border-radius: 0.5rem;
+}
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+.outline-none {
+  outline: none;
+}
+.mt-10 {
+  margin-top: 4rem;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+.hidden-div {
+  padding: 10rem 7.5rem;
+  height: 31rem;
+}
+
+.hidden-status-button {
+  font-weight: 600;
+  border: none;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  cursor: pointer;
+}
+
+.hidden-status-button2 {
+  background-color: #16703f;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  cursor: pointer;
+}
+
+.go-back-button {
+  background-color: #16703f;
+  color: white;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  width: 60%;
+  text-align: center;
+  height: 2rem;
+}
+
+.go-back-div {
+  padding: 10rem 10rem 10rem 18rem;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.notFound {
+  text-decoration: none;
+  color: #16703f;
+}
